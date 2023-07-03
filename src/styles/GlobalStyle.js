@@ -360,6 +360,22 @@ const GlobalStyle = createGlobalStyle`
     font-size: var(--fz-md);
   }
 
+  .overlay {
+    pointer-events: none;
+    position: fixed;
+    inset: 0;
+    z-index: 30;
+    transition-duration: .15s;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .3s;
+    @media (max-width: 1080px) {
+      position: absolute;
+    }
+  }
+
   .skip-to-content {
     ${({ theme }) => theme.mixins.button};
     position: absolute;

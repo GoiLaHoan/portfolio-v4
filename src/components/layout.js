@@ -46,14 +46,33 @@ const Layout = ({ children, location }) => {
     handleExternalLinks();
   }, [isLoading]);
 
+  const [coords, setCoords] = useState({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const handleWindowMouseMove = event => {
+      setCoords({
+        x: event.clientX,
+        y: event.clientY,
+      });
+    };
+    window.addEventListener('mousemove', handleWindowMouseMove);
+
+    return () => {
+      window.removeEventListener('mousemove', handleWindowMouseMove);
+    };
+  }, []);
+
+  const boxStyle = {
+    background: `radial-gradient(600px at ${coords.x}px ${coords.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
+  };
+
   return (
     <>
       <Head />
-
       <div id="root">
         <ThemeProvider theme={theme}>
           <GlobalStyle />
-
+          <div className="overlay" style={boxStyle}></div>
           <a className="skip-to-content" href="#content">
             Skip to Content
           </a>
