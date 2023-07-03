@@ -1,7 +1,7 @@
 ---
 date: '2023-06-28'
 title: 'Frontend Developer'
-company: 'Protean Studios 4'
+company: 'Four'
 location: 'Cau Giay, Ha Noi'
 range: 'December 2022 - Now'
 url: 'https://proteanstudios.com'

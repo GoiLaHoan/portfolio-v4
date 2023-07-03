@@ -1,7 +1,7 @@
 ---
-date: '2023-07-01'
+date: '2023-05-01'
 title: 'Frontend Developer'
-company: 'Another Company'
+company: 'Other'
 location: 'Ha Noi'
 range: 'December **** - ***'
 url: '/'
