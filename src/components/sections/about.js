@@ -66,10 +66,9 @@ const StyledPic = styled.div`
     &:hover,
     &:focus {
       outline: 0;
-
+      transform: translate(-4px, -4px);
       &:after {
-        top: 15px;
-        left: 15px;
+        transform: translate(8px, 8px);
       }
 
       .img {
@@ -125,7 +124,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python', 'Scala', 'Django', 'Flutter', 'C', 'Keras', 'Spark', 'SQL'];
+  const skills = ['JavaScript', 'TypeScript', 'ReactJS', 'NextJS', '.Net Core', 'SQL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,43 +134,33 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I finished my bachelors from{' '}
-              <a href="https://nirmauni.ac.in/" target="_blank" rel="noreferrer">
-                Nirma University
+              My name is Hoan, 22 year old, I come from Viet Nam. I graduated from{' '}
+              <a href="https://hus.vnu.edu.vn/" target="_blank" rel="noreferrer">
+                Hanoi university of Sciences
               </a>{' '}
-              in 2022. I was introduced to Data Science in my 5<sup>th</sup> semester and have been
-              interested ever since. Besides studying and programming, I love participating in
-              debates, extempores or general discussions. On an off day you'll find me bundled up in
-              a corner reading something.
+              .
             </p>
 
             <p>
-              I am always looking to learn new things. I am currently working on a few projects
-              related to <b>Natural Language Processing</b> and <b>Machine Learning</b>. At the same
-              time I am actively on the lookout for remote internships which I can pursue in field
-              of Data Science.
+              I have over a year of experience in front-end developer. I can do the job with tech
+              skills like ReactJS, TypeScript, and C# and I have basic knowledge and experience in
+              OOP, Data Structure, design pattern, agile/scrum. I can public speaking, give
+              presentations and work in groups: Implement and solving problem for members of a team.
+              My english is not good but I can use my English for my job to reading documents so I
+              can still get the job done well. Thanks for listening.
             </p>
 
             <p>
               I am a strong advocate for open source and I am always interested in working on new
               projects with new people. Do check out my{' '}
               <a
-                href="https://github.com/pycoder2000?tab=repositories"
+                href="https://github.com/GoiLaHoan?tab=repositories"
                 target="_blank"
-                rel="noreferrer"
-              >
+                rel="noreferrer">
                 repositories
               </a>{' '}
               and feel free to reach out on{' '}
-              <a
-                href="https://api.whatsapp.com/send?phone=916358190818&text=hi"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Whatsapp
-              </a>{' '}
-              or{' '}
-              <a href="mailto:%20desaiparth2000@gmail.com" target="_blank" rel="noreferrer">
+              <a href="mailto:%20nvhoan911@gmail.com" target="_blank" rel="noreferrer">
                 email
               </a>{' '}
               if you would like to collaborate on any project.
@@ -189,7 +178,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/profile.jpeg"
+              src="../../images/profile.jpg"
               width={500}
               quality={100}
               formats={['AUTO', 'WEBP', 'AVIF']}

@@ -1,15 +1,14 @@
 ---
 date: '3'
-title: 'Stock Portfolio Management'
-cover: './HomePage.png'
-cta: 'https://github.com/pycoder2000/Stock-Management'
-external: ''
+title: 'Cat Management'
+cover: './CatGlass.jpg'
+cta: 'https://www.youtube.com/'
+external: 'https://www.youtube.com/'
 tech:
-  - Django
-  - HTML
-  - Python
-  - CSS
-  - SQLite
+  - Cat
+  - HTMeow
+  - Python-Hate-Cat
+  - CatSS
 ---
 
-It is a web application for managing your investment portfolio. Users can get real-time stock data and market news via Yahoo Finance, IEX Cloud, and Quandl APIs. They can also compare the performance of the stocks with charts and predict the future behaviour for the same. Users are given the ability to create a customizable stock portfolio and watchlist to track both current and prospective holdings. The application uses RESTful Web Services to pull live/historical stock data.
+Description Cat just meo meow.

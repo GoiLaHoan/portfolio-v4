@@ -1,18 +1,22 @@
 module.exports = {
-  email: 'desaiparth2000@gmail.com',
+  email: 'nvhoan911@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/pycoder2000',
+      url: 'https://github.com/GoiLaHoan',
     },
+    // {
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/lone_Musk',
+    // },
+    // {
+    //   name: 'Linkedin',
+    //   url: 'https://www.linkedin.com/in/parth-desai-2bb1b0160/',
+    // },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/lone_Musk',
-    },
-    {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/parth-desai-2bb1b0160/',
+      name: 'Facebook',
+      url: 'https://www.facebook.com/nvhoan404',
     },
   ],
 
@@ -34,8 +38,12 @@ module.exports = {
       url: '/#contact',
     },
     {
+      name: 'Pensieve',
+      url: '/pensieve',
+    },
+    {
       name: 'Blog',
-      url: 'https://musing.vercel.app/',
+      url: 'https://www.youtube.com/',
     },
   ],
 

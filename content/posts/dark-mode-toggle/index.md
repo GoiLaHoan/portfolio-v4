@@ -6,7 +6,7 @@ draft: false
 slug: /pensieve/dark-mode-toggle
 tags:
   - Theming
-  - Dark Mode
+  - DarkMode
 ---
 
 Dark mode toggle without the flash of default theme. Important bits:
@@ -38,8 +38,7 @@ Dark mode toggle without the flash of default theme. Important bits:
       <button
         class="theme-toggle-btn js-theme-toggle"
         aria-label="Activate dark mode"
-        title="Activate dark mode"
-      >
+        title="Activate dark mode">
         <!--
         <svg class="light-mode">
           <use xlink:href="#sun"></use>

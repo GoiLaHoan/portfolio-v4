@@ -1,7 +1,7 @@
 ---
 date: '2021-12-03'
 title: 'Sentiment Analysis'
-github: 'https://github.com/pycoder2000/sentiment-analysis'
+github: 'https://github.com/GoiLaHoan/'
 external: ''
 tech:
   - Flask
@@ -9,7 +9,7 @@ tech:
   - NLTK
   - TfidfVectorizer
   - Python
-company: 'Nirma University'
+company: 'A A'
 showInProjects: true
 ios: ''
 android: ''

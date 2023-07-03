@@ -59,33 +59,22 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Parth Desai.</h2>;
-  const three = <h3 className="big-heading">I design and code simple things.</h3>;
+  const two = <h2 className="big-heading">Nguyen Van Hoan.</h2>;
+  const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <>
       <p>
-        I am an India based Data Engineer with a bachelors in Computer Science. I am passionate
-        about Data Science and Automation. I am also fascinated with Mathematics and wish to make a
-        career out of it someday. Currently, I’m focused on building data pipelines and automating
-        them at{' '}
-        <a
-          href="https://www.accenture.com/gr-en/about/consulting-index"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Accenture
+        I’m a software engineer specializing in building (and occasionally designing) exceptional
+        digital experiences. Currently, I'm{' '}
+        <a href="/" target="_blank" rel="noreferrer">
+          freezing
         </a>
         .
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="mailto:desaiparth2000@gmail.com"
-      target="_blank"
-      rel="noreferrer"
-    >
+    <a className="email-link" href="mailto:nvhoan911@gmail.com" target="_blank" rel="noreferrer">
       Contact me
     </a>
   );

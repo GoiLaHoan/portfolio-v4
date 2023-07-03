@@ -105,10 +105,10 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/pycoder2000/portfolio-v4">
+        <a href="https://github.com/GoiLaHoan">
           <div>Designed &amp; Built by Brittany Chiang</div>
           <br></br>
-          <div>Revised by Parth Desai</div>
+          <div>Revised by GoiLaHoan</div>
           {githubInfo.stars && githubInfo.forks && (
             <div className="github-stats">
               <span>

@@ -1,7 +1,7 @@
 ---
 date: '2022-02-23'
 title: 'To Do List'
-github: 'https://github.com/pycoder2000/Todo-List'
+github: 'https://github.com/GoiLaHoan/'
 external: ''
 tech:
   - Django

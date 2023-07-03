@@ -1,15 +1,14 @@
 ---
 date: '2'
-title: 'Car Price Predictor'
-cover: './CarPricePrediction.png'
-github: 'https://github.com/pycoder2000/Car-Price-Prediction'
-external: 'https://allysoncaragency.herokuapp.com/'
+title: 'Meow'
+cover: './CatGlass.jpg'
+github: 'https://github.com/GoiLaHoan/'
+external: 'https://www.youtube.com/'
 tech:
-  - Python
-  - Scipy
-  - HTML
-  - Javascript
+  - HTMeow
+  - CatSS
+  - Catscript
   - Linear Regression
 ---
 
-The [Car Price Predictor](https://allysoncaragency.herokuapp.com/) is a web application which predicts car prices based on given independent features like Car Name, Year, Selling Price, Present Price, Kms Driven, Fuel Type etc. The dataset is available at [Kaggle](https://www.kaggle.com/code/mdejazulhassan/vehicle-dataset-from-cardekho/data), and it's provided by [cardekho.com](https://www.cardekho.com/). It is made using **Flask** and deployed on **Heroku**.
+The [Meow meow](https://www.youtube.com/) is a web application which meow meow meow etc.

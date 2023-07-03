@@ -1,7 +1,7 @@
 ---
 date: '2020-10-23'
 title: 'Xenith Space Shooter'
-github: 'https://github.com/pycoder2000/Xenith-Space_Shooter'
+github: 'https://github.com/GoiLaHoan/'
 external: ''
 tech:
   - Pygame
